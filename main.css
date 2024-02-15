@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: dancing;
+  src: url(dancing-script/DancingScript-Regular.ttf);
+}
+@font-face {
+  font-family: dancing-bold;
+  src: url(dancing-script/DancingScript-Bold.ttf);
+}
+#top {
+  background: url("/kelly-sikkema-L5HG3CH_pgc-unsplash\ \(1\).jpg");
+
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+span {
+  position: relative;
+  left: 20%;
+  top: 10%;
+  color: white;
+  font-size: 24px;
+  font-family: dancing;
+}
+
+#para {
+  position: relative;
+  top: 18%;
+  left: 35%;
+}
+
+#hate {
+  /* position: relative;
+  top: 40%;
+  left: 40%;
+  font-family: dancing-bold;
+  font-size: 32px; */
+}
+#ask {
+  position: relative;
+  left: 5%;
+  top: 5%;
+  font-family: dancing-bold;
+  font-size: 32px;
+}
+
+#bot {
+  background: url("/annie-spratt-fDghTk7Typw-unsplash.jpg");
+  text-align: center;
+
+  height: 100vh;
+  background-size: cover;
+  background-position: 0px -520px;
+
+  background-repeat: no-repeat;
+
+  position: relative;
+  top: 50%;
+
+  color: black;
+  font-size: 32px;
+}
+
+#bot-para {
+  color: white;
+  font-size: 32px;
+  font-family: dancing-bold;
+  font-weight: bolder;
+  left: 25%;
+  top: 18%;
+
+  display: block;
+
+  max-width: 600px;
+
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+  backdrop-filter: blur(4px);
+  border-radius: 4px;
+}
+
+#img {
+  height: 400px;
+  width: 300px;
+  display: inline-block;
+
+  background: url(/IMG_20230803_122951~2.jpg);
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  top: 6%;
+  left: 60%;
+  /* z-index: 2; */
+
+  transform: rotate(10deg);
+
+  border-radius: 4px;
+}
