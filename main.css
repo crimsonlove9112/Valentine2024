@@ -12,7 +12,7 @@
   src: url(dancing-script/DancingScript-Bold.ttf);
 }
 #top {
-  background: url("/kelly-sikkema-L5HG3CH_pgc-unsplash\ \(1\).jpg");
+  background: url("kelly-sikkema-L5HG3CH_pgc-unsplash\ \(1\).jpg");
 
   height: 100vh;
 
@@ -51,7 +51,7 @@ span {
 }
 
 #bot {
-  background: url("/annie-spratt-fDghTk7Typw-unsplash.jpg");
+  background: url("annie-spratt-fDghTk7Typw-unsplash.jpg");
   text-align: center;
 
   height: 100vh;
@@ -89,7 +89,7 @@ span {
   width: 300px;
   display: inline-block;
 
-  background: url(/IMG_20230803_122951~2.jpg);
+  background: url(IMG_20230803_122951~2.jpg);
   background-position: center;
   background-size: cover;
 
